@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="4" parallel="tests" name="AddExpenseTest(failed)" verbose="0">
+  <test thread-count="4" parallel="tests" name="CreateDeliveryBoyTest(failed)" verbose="0">
     <classes>
-      <class name="com.supermarket.test.AddExpenseTest">
+      <class name="com.supermarket.test.CreateDeliveryBoyTest">
         <methods>
           <include name="initializeDriver"/>
-          <include name="verufyUserIsAbleToAddExpense"/>
-          <include name="tearDown"/>
+          <include name="verifyUserIsAbleToCreateMultipleDeliveryBoys" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.supermarket.test.AddExpenseTest -->
+      </class> <!-- com.supermarket.test.CreateDeliveryBoyTest -->
     </classes>
-  </test> <!-- AddExpenseTest(failed) -->
-  <test thread-count="4" parallel="tests" name="ManageExpenseTest(failed)" verbose="0">
-    <classes>
-      <class name="com.supermarket.test.ManageExpenseTest">
-        <methods>
-          <include name="initializeDriver"/>
-          <include name="userIsableToCreateAndDeleteExpense"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.supermarket.test.ManageExpenseTest -->
-    </classes>
-  </test> <!-- ManageExpenseTest(failed) -->
+  </test> <!-- CreateDeliveryBoyTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

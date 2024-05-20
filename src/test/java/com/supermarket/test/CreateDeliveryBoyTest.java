@@ -24,7 +24,7 @@ public class CreateDeliveryBoyTest extends BaseTest{
 	@DataProvider
 	public String[][] getData()
 	{
-		String[][] data = new String[2][3];
+		String[][] data = new String[3][3];
 		data[0][0] = UniqueGenerator.getUniqueString("CustomerA");
 		data[0][1] = UniqueGenerator.getUniqueString("CusUnameA")+UniqueGenerator.getRandomNumber();
 		data[0][2] = UniqueGenerator.getUniqueString("CusPasswordA");
@@ -32,6 +32,10 @@ public class CreateDeliveryBoyTest extends BaseTest{
 		data[1][0] = UniqueGenerator.getUniqueString("CustomerB");
 		data[1][1] = UniqueGenerator.getUniqueString("CusUnameB")+UniqueGenerator.getRandomNumber();
 		data[1][2] = UniqueGenerator.getUniqueString("CusPasswordB");
+		
+		data[2][0] = UniqueGenerator.getUniqueString("CustomerB");
+		data[2][1] = UniqueGenerator.getUniqueString("CusUnameB")+UniqueGenerator.getRandomNumber();
+		data[2][2] = UniqueGenerator.getUniqueString("CusPasswordB");
 		
 		
 		

@@ -7,7 +7,6 @@
         <methods>
           <include name="initializeDriver"/>
           <include name="verifyUserIsAbleTAddMobileSlider"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.supermarket.test.AddMobileSliderTest -->
     </classes>

@@ -8,8 +8,11 @@
       <class name="com.supermarket.test.ManagePagesListTest"/>
       <class name="com.supermarket.test.AdminTest"/>
       <class name="com.supermarket.test.LoginTest"/>
-      <class name="com.supermarket.test.CreateFDeliveryBoyTest"/>
+      <class name="com.supermarket.test.CreateDeliveryBoyTest"/>
       <class name="com.supermarket.test.ManageExpenseTest"/>
+         <class name="com.supermarket.test.CreateNewsTest"/>
+          <class name="com.supermarket.test.AddLocationTest"/>
+          <class name="com.supermarket.test.EditFooterTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.supermarket.context.Constants;
 import com.supermarket.utils.PageActions;
+import com.supermarket.utils.UniqueGenerator;
 
 public class ManageAddListPages extends PageActions{
 
@@ -39,8 +40,8 @@ public class ManageAddListPages extends PageActions{
 	public void enterPageInfo() throws AWTException
 	{
 		clickElement(newBtn);
-		titleInput.sendKeys("Vini");
-		setTextBox(titleInput, "Vini"); 
+		
+		setTextBox(titleInput, "Vini"+UniqueGenerator.getCurrentDateTime().toString()); 
 		textArea.sendKeys("Am a fruit");
 		pageName.sendKeys("Fruit Page");
 		uploadImage(chooseFile,Constants.IMAGEPATH);

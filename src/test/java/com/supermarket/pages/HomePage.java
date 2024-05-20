@@ -48,6 +48,16 @@ WebDriver driver;
 	@FindBy(xpath="//div[@class='col-lg-3 col-6'][2]//a[@class='small-box-footer']")
 	WebElement adminUser;
 	
+	@FindBy(xpath="//*[contains(text(),'Manage News')]")
+	private WebElement manageNews;
+	
+	@FindBy(xpath="//*[contains(text(),'Manage Location')]")
+	private WebElement manageLocation;
+	
+	@FindBy(xpath="//*[contains(text(),'Manage Footer Text')]")
+	private WebElement manageFooterText;
+	
+	
 	
 	public String getBrandName()
 	{
@@ -102,6 +112,23 @@ WebDriver driver;
 		System.out.println("hi");
 	}
 	
+	public void navigateToNewsPage() {
+		clickElement(manageContent);
+		clickElement(manageNews);
+		
+	}
+	
+	public void navigateToManageLocationPage() {
+		clickElement(manageLocation);
+	
+		
+	}
+	
+	public void navigateToManageFooterTestPage()
+	{
+		clickElement(manageContent);
+		clickElement(manageFooterText);
+	}
 	
 	
 }

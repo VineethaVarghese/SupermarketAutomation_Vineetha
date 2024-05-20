@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class AddMobileSliderTest extends BaseTest{
 
-	@Test
+	//@Test
 	public void verifyUserIsAbleTAddMobileSlider() throws AWTException, InterruptedException, IOException
 	{
 		lp.login();

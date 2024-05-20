@@ -1,5 +1,6 @@
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\test\ManageExpenseTest.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\test\LoginTest.java
+C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\test\CreateNewsTest.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\context\Constants.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\pages\ManagePaymentMethodsPage.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\pages\AdminUsersPage.java
@@ -9,10 +10,13 @@ C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\pages\ManageAddListPages.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\test\ManagePagesListTest.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\test\CreateDeliveryBoyTest.java
+C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\pages\NewsPage.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\pages\MobileSliderPage.java
+C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\pages\ManageLocationsPage.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\utils\UniqueGenerator.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\pages\HomePage.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\utils\TestProperties.java
+C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\test\AddLocationTest.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\test\AddExpenseTest.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\pages\DeliveryBoyPage.java
 C:\Users\shon4\git\SupermarketAutomation_Vineetha\SupermarketAutomation\src\test\java\com\supermarket\listeners\ReportListener.java

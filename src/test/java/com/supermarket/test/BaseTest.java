@@ -23,8 +23,11 @@ import com.supermarket.pages.HomePage;
 import com.supermarket.pages.ListExpensePage;
 import com.supermarket.pages.LoginPage;
 import com.supermarket.pages.ManageAddListPages;
+import com.supermarket.pages.ManageFooterPage;
+import com.supermarket.pages.ManageLocationsPage;
 import com.supermarket.pages.ManagePaymentMethodsPage;
 import com.supermarket.pages.MobileSliderPage;
+import com.supermarket.pages.NewsPage;
 import com.supermarket.utils.TestProperties;
 
 public class BaseTest {
@@ -103,6 +106,9 @@ public class BaseTest {
 	public MobileSliderPage ms;
 	public ManageAddListPages mlp;
 	public AdminUsersPage aup;
+	public NewsPage news;
+	public ManageLocationsPage ml;
+	public ManageFooterPage mfp;
 	
 	public void initPages() 
 	{
@@ -115,15 +121,16 @@ public class BaseTest {
 		ms   =   new MobileSliderPage(driver);
 		mlp = new ManageAddListPages(driver);
 		aup = new AdminUsersPage(driver);
+		news = new NewsPage(driver);
+		ml = new ManageLocationsPage(driver);
+		mfp = new ManageFooterPage(driver);
 		
 	}
 	
 	
-	  @AfterMethod(alwaysRun=true) 
-	  public void tearDown() 
-	  { 
-		  driver.quit(); 
-	  }
+	/*
+	 * @AfterMethod(alwaysRun=true) public void tearDown() { driver.quit(); }
+	 */
 	 
 	
 	
